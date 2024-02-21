@@ -23,3 +23,8 @@ def adding():
         "addition ": addition()
 
     }
+
+# Run the FastAPI app with Uvicorn
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="127.0.0.1", port=80)
